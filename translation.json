@@ -1,0 +1,482 @@
+{
+  "🏥 Patient Health Dashboard": {
+    "English": "🏥 Patient Health Dashboard",
+    "Tamil": "🏥 நோயாளர் நலன்கள் பலகை"
+  },
+  "Enter Your Health Data": {
+    "English": "Enter Your Health Data",
+    "Tamil": "உங்கள் நலவியல் தரவை உள்ளிடவும்"
+  },
+  "Blood Pressure (mmHg)": {
+    "English": "Blood Pressure (mmHg)",
+    "Tamil": "ரத்த அழுத்தம் (mmHg)"
+  },
+  "Heart Rate (bpm)": {
+    "English": "Heart Rate (bpm)",
+    "Tamil": "இதய துடிப்பு (bpm)"
+  },
+  "Blood Sugar Level (mg/dL)": {
+    "English": "Blood Sugar Level (mg/dL)",
+    "Tamil": "இரத்த சர்க்கரை அளவு (mg/dL)"
+  },
+  "Body Temperature (°C)": {
+    "English": "Body Temperature (°C)",
+    "Tamil": "உடல் வெப்பநிலை (°C)"
+  },
+  "Save Data": {
+    "English": "Save Data",
+    "Tamil": "தரவை சேமிக்கவும்"
+  },
+  "📊 Health Data Log": {
+    "English": "📊 Health Data Log",
+    "Tamil": "📊 நலவியல் பதிவுகள்"
+  },
+  "📈 Health Trends": {
+    "English": "📈 Health Trends",
+    "Tamil": "📈 நலன்கள் போக்குகள்"
+  },
+  "Download Full Report": {
+    "English": "Download Full Report",
+    "Tamil": "முழு அறிக்கையை பதிவிறக்கவும்"
+  },
+  "Prediction Results": {
+    "English": "Prediction Results",
+    "Tamil": "முன்னறிவிப்பு முடிவுகள்"
+  },
+  "Patient Details": {
+    "English": "Patient Details",
+    "Tamil": "நோயாளி விவரங்கள்"
+  },
+  "Patient Name": {
+    "English": "Patient Name",
+    "Tamil": "பெயர்"
+  },
+  "Age": {
+    "English": "Age",
+    "Tamil": "வயது"
+  },
+  "Gender": {
+    "English": "Gender",
+    "Tamil": "பாலினம்"
+  },
+  "Download PDF Report": {
+    "English": "Download PDF Report",
+    "Tamil": "PDF அறிக்கையைப் பதிவிறக்கவும்"
+  },
+  "Monitor and log vital health data for better tracking and care.": {
+    "English": "Monitor and log vital health data for better tracking and care.",
+    "Tamil": "சிறந்த கண்காணிப்பு மற்றும் பராமரிப்புக்காக முக்கிய சுகாதாரத் தரவைக் கண்காணித்து பதிவு செய்யவும்."
+  },
+  "Data saved successfully!": {
+    "English": "Data saved successfully!",
+    "Tamil": "தரவு வெற்றிகரமாக சேமிக்கப்பட்டது!"
+  },
+  "Hypertension & Hypotension Analysis": {
+    "English": "Hypertension & Hypotension Analysis",
+    "Tamil": "உயர் இரத்த அழுத்தம் & உயர் இரத்த அழுத்தம் பகுப்பாய்வு"
+  },
+  "⚠️ High Blood Pressure (Hypertension) detected! Please consult a doctor.": {
+    "English": "⚠️ High Blood Pressure (Hypertension) detected! Please consult a doctor.",
+    "Tamil": "⚠️ உயர் இரத்த அழுத்தம் (உயர் இரத்த அழுத்தம்) கண்டறியப்பட்டது! தயவுசெய்து மருத்துவரை அணுகவும்."
+  },
+  "⚠️ Low Blood Pressure (Hypotension) detected! Monitor your condition.": {
+    "English": "⚠️ Low Blood Pressure (Hypotension) detected! Monitor your condition.",
+    "Tamil": "⚠️ குறைந்த இரத்த அழுத்தம் (ஹைபோடென்ஷன்) கண்டறியப்பட்டது! உங்கள் நிலையைக் கண்காணிக்கவும்."
+  },
+  "✅ Blood Pressure is in the normal range.": {
+    "English": "✅ Blood Pressure is in the normal range.",
+    "Tamil": "✅ இரத்த அழுத்தம் சாதாரண வரம்பில் உள்ளது."
+  },
+  "⚠️ High Temperature detected! Possible fever or infection.": {
+    "English": "⚠️ High Temperature detected! Possible fever or infection.",
+    "Tamil": "⚠️ அதிக வெப்பநிலை கண்டறியப்பட்டது! காய்ச்சல் அல்லது தொற்று ஏற்பட வாய்ப்புள்ளது."
+  },
+  "✅ Normal body temperature.": {
+    "English": "✅ Normal body temperature.",
+    "Tamil": "✅ சாதாரண உடல் வெப்பநிலை."
+  },
+  "🌡️ Fever Detection and Severity Analysis": {
+    "English": "🌡️ Fever Detection and Severity Analysis",
+    "Tamil": "🌡️ காய்ச்சல் கண்டறிதல் மற்றும் தீவிர பகுப்பாய்வு"
+  },
+  "🟢 Normal Temperature": {
+    "English": "🟢 Normal Temperature",
+    "Tamil": "🟢 சாதாரண வெப்பநிலை"
+  },
+  "🟡 Low-grade Fever": {
+    "English": "🟡 Low-grade Fever",
+    "Tamil": "🟡 குறைந்த தர காய்ச்சல்"
+  },
+  "🟠 Moderate Fever": {
+    "English": "🟠 Moderate Fever",
+    "Tamil": "🟠 மிதமான காய்ச்சல்"
+  },
+  "🔴 High Fever!": {
+    "English": "🔴 High Fever!",
+    "Tamil": "🔴 அதிக காய்ச்சல்!"
+  },
+  "No signs of fever. Stay hydrated and maintain your routine.": {
+    "English": "No signs of fever. Stay hydrated and maintain your routine.",
+    "Tamil": "காய்ச்சலுக்கான அறிகுறிகள் எதுவும் இல்லை. நீர்ச்சத்துடன் இருங்கள் மற்றும் உங்கள் வழக்கத்தை கடைபிடியுங்கள்."
+  },
+  "Drink plenty of fluids.": {
+    "English": "Drink plenty of fluids.",
+    "Tamil": "நிறைய திரவங்களை குடிக்கவும்."
+  },
+  "Monitor temperature regularly.": {
+    "English": "Monitor temperature regularly.",
+    "Tamil": "வெப்பநிலையை தவறாமல் கண்காணிக்கவும்."
+  },
+  "Rest is advised.": {
+    "English": "Rest is advised.",
+    "Tamil": "ஓய்வு பரிந்துரைக்கப்படுகிறது."
+  },
+  "Avoid strenuous activity.": {
+    "English": "Avoid strenuous activity.",
+    "Tamil": "கடுமையான செயல்பாடுகளைத் தவிர்க்கவும்."
+  },
+  "Keep body cool with light clothes.": {
+    "English": "Keep body cool with light clothes.",
+    "Tamil": "லேசான ஆடைகளால் உடலை குளிர்ச்சியாக வைத்திருங்கள்."
+  },
+  "Use paracetamol if advised by doctor.": {
+    "English": "Use paracetamol if advised by doctor.",
+    "Tamil": "மருத்துவர் பரிந்துரைத்தால் பாராசிட்டமால் பயன்படுத்தவும்."
+  },
+  "Seek medical help if fever persists.": {
+    "English": "Seek medical help if fever persists.",
+    "Tamil": "காய்ச்சல் தொடர்ந்தால் மருத்துவ உதவியை நாடுங்கள்."
+  },
+  "Seek immediate medical attention.": {
+    "English": "Seek immediate medical attention.",
+    "Tamil": "உடனடியாக மருத்துவ உதவியை நாடுங்கள்."
+  },
+  "Take antipyretics as prescribed.": {
+    "English": "Take antipyretics as prescribed.",
+    "Tamil": "பரிந்துரைக்கப்பட்டபடி ஆண்டிபிரைடிக் மருந்துகளை எடுத்துக் கொள்ளுங்கள்."
+  },
+  "Stay in a cool, ventilated room.": {
+    "English": "Stay in a cool, ventilated room.",
+    "Tamil": "குளிர்ந்த, காற்றோட்டமான அறையில் தங்கவும்."
+  },
+  "Drink oral rehydration solutions (ORS).": {
+    "English": "Drink oral rehydration solutions (ORS).",
+    "Tamil": "வாய்வழி நீரேற்றக் கரைசல்களை (ORS) குடிக்கவும்."
+  },
+  "📝 Suggestions": {
+    "English": "📝 Suggestions",
+    "Tamil": "📝 பரிந்துரைகள்"
+  },
+  "🩺 Hypertension Risk Prediction": {
+    "English": "🩺 Hypertension Risk Prediction",
+    "Tamil": "🩺 உயர் இரத்த அழுத்தம் ஆபத்து கணிப்பு"
+  },
+  "Do you have any heart disease?": {
+    "English": "Do you have any heart disease?",
+    "Tamil": "உங்களுக்கு இதய நோய் உண்டா?"
+  },
+  "Ever Married": {
+    "English": "Ever Married",
+    "Tamil": "திருமணம் செய்துள்ளீர்களா?"
+  },
+  "Work Type": {
+    "English": "Work Type",
+    "Tamil": "வேலை வகை"
+  },
+  "Residence Type": {
+    "English": "Residence Type",
+    "Tamil": "வாழ்வு பகுதி"
+  },
+  "Average Glucose Level (mg/dL)": {
+    "English": "Average Glucose Level (mg/dL)",
+    "Tamil": "சராசரி குளுகோஸ் நிலை (மிகிராம்/திசி)"
+  },
+  "Body Mass Index (BMI)": {
+    "English": "Body Mass Index (BMI)",
+    "Tamil": "உடல் எடை குறியீடு (BMI)"
+  },
+  "Smoking Status": {
+    "English": "Smoking Status",
+    "Tamil": "புகை பிடிப்பது"
+  },
+  "Systolic (mmHg)": {
+    "English": "Systolic (mmHg)",
+    "Tamil": "சிஸ்டொலிகல் (மி.மெ. ஹெச்.ஜி.)"
+  },
+  "Diastolic (mmHg)": {
+    "English": "Diastolic (mmHg)",
+    "Tamil": "டயஸ்டொலிகல் (மி.மெ. ஹெச்.ஜி.)"
+  },
+  "Predict Hypertension Risk": {
+    "English": "Predict Hypertension Risk",
+    "Tamil": "உயர் இரத்த அழுத்தம் ஆபத்தைக் கணி"
+  },
+  "⚠️ High Risk of Hypertension Detected!": {
+    "English": "⚠️ High Risk of Hypertension Detected!",
+    "Tamil": "⚠️ உயர் இரத்த அழுத்தம் ஆபத்து கண்டறியப்பட்டுள்ளது!"
+  },
+  "✅ Low Risk of Hypertension.": {
+    "English": "✅ Low Risk of Hypertension.",
+    "Tamil": "✅ குறைந்த இரத்த அழுத்தம் ஆபத்து."
+  },
+  "Blood Pressure Category": {
+    "English": "Blood Pressure Category",
+    "Tamil": "ரத்த அழுத்த வகை"
+  },
+  "Advice": {
+    "English": "Advice",
+    "Tamil": "சிறந்த ஆலோசனை"
+  },
+  "📊 Feature Importance": {
+    "English": "📊 Feature Importance",
+    "Tamil": "📊 அம்ச முக்கியத்துவம்"
+  },
+  "🔒 Login / 📝 Register": {
+    "English": "🔒 Login / 📝 Register",
+    "Tamil": "🔒 உள்நுழை / 📝 பதிவு"
+  },
+  "🔐 Login": {
+    "English": "🔐 Login",
+    "Tamil": "🔐 உள்நுழை"
+  },
+  "Login": {
+    "English": "Login",
+    "Tamil": "உள்நுழை"
+  },
+  "📝 Register": {
+    "English": "📝 Register",
+    "Tamil": "📝 பதிவு செய்"
+  },
+  "Register": {
+    "English": "Register",
+    "Tamil": "பதிவு செய்"
+  },
+  "Email": {
+    "English": "Email",
+    "Tamil": "மின்னஞ்சல்"
+  },
+  "Password": {
+    "English": "Password",
+    "Tamil": "கடவுச்சொல்"
+  },
+  "New Email": {
+    "English": "New Email",
+    "Tamil": "புதிய மின்னஞ்சல்"
+  },
+  "New Password": {
+    "English": "New Password",
+    "Tamil": "புதிய கடவுச்சொல்"
+  },
+  "Confirm Password": {
+    "English": "Confirm Password",
+    "Tamil": "கடவுச்சொல்லை உறுதிப்படுத்து"
+  },
+  "Did you mean": {
+    "English": "Did you mean",
+    "Tamil": "நீங்கள் குறிப்பிடுவது"
+  },
+  "Welcome": {
+    "English": "Welcome",
+    "Tamil": "வணக்கம்"
+  },
+  "Login failed. Please check your credentials.": {
+    "English": "Login failed. Please check your credentials.",
+    "Tamil": "உள்நுழை தவறியது. உங்கள் தகவல்களை சரிபார்க்கவும்."
+  },
+  "Passwords do not match.": {
+    "English": "Passwords do not match.",
+    "Tamil": "கடவுச்சொற்கள் பொருந்தவில்லை."
+  },
+  "Password too weak.": {
+    "English": "Password too weak.",
+    "Tamil": "கடவுச்சொல் மிகவும் பலவீனமாக உள்ளது."
+  },
+  "Email is required.": {
+    "English": "Email is required.",
+    "Tamil": "மின்னஞ்சல் தேவை."
+  },
+  "Account created successfully! You can now log in.": {
+    "English": "Account created successfully! You can now log in.",
+    "Tamil": "கணக்கு வெற்றிகரமாக உருவாக்கப்பட்டது! நீங்கள் இப்போது உள்நுழையலாம்."
+  },
+  "Registration failed": {
+    "English": "Registration failed",
+    "Tamil": "பதிவு தோல்வியடைந்தது"
+  },
+  "BMI Calculator": {
+    "English": "BMI Calculator",
+    "Tamil": "BMI கணக்கிடுபவர்"
+  },
+  "Height (in cm)": {
+    "English": "Height (in cm)",
+    "Tamil": "உயரம் (செ.மி)"
+  },
+  "Weight (in kg)": {
+    "English": "Weight (in kg)",
+    "Tamil": "எடை (கி.கி)"
+  },
+  "Your BMI": {
+    "English": "Your BMI",
+    "Tamil": "உங்கள் BMI"
+  },
+  "Underweight": {
+    "English": "Underweight",
+    "Tamil": "குறைந்த எடை"
+  },
+  "Normal weight": {
+    "English": "Normal weight",
+    "Tamil": "சாதாரண எடை"
+  },
+  "Overweight": {
+    "English": "Overweight",
+    "Tamil": "அதிக எடை"
+  },
+  "Obese": {
+    "English": "Obese",
+    "Tamil": "பலம் அதிகம்"
+  },
+  "💪 BMI Calculator": {
+    "English": "💪 BMI Calculator",
+    "Tamil": "💪 BMI கணக்கிடுபவர்"
+  },
+  "🧮 Your BMI": {
+    "English": "🧮 Your BMI",
+    "Tamil": "🧮 உங்கள் BMI"
+  },
+  "🔹 Underweight": {
+    "English": "🔹 Underweight",
+    "Tamil": "🔹 குறைந்த எடை"
+  },
+  "✅ Normal weight": {
+    "English": "✅ Normal weight",
+    "Tamil": "✅ சாதாரண எடை"
+  },
+  "🟠 Overweight": {
+    "English": "🟠 Overweight",
+    "Tamil": "🟠 அதிக எடை"
+  },
+  "🔴 Obese": {
+    "English": "🔴 Obese",
+    "Tamil": "🔴 பலம் அதிகம்"
+  },
+  "📋 Health Risk Overview": {
+    "English": "📋 Health Risk Overview",
+    "Tamil": "📋 ஆரோக்கிய பரிசோதனை சிறு புள்ளி"
+  },
+  "Explain Risk Factors (Click to View Details)": {
+    "English": "Explain Risk Factors (Click to View Details)",
+    "Tamil": "ஆபத்து காரணி விளக்கங்கள் (விவரங்களை காண கிளிக் செய்க)"
+  },
+  "📋 Health Risk Summary": {
+    "English": "📋 Health Risk Summary",
+    "Tamil": "📋 ஆரோக்கிய ஆபத்து சுருக்கம்"
+  },
+  "Low Risk ✅ Maintain healthy habits!": {
+    "English": "Low Risk ✅ Maintain healthy habits!",
+    "Tamil": "குறைந்த ஆபத்து ✅ ஆரோக்கிய வழக்குகளை தொடருங்கள்!"
+  },
+  "Moderate Risk ⚠️ Watch your health closely!": {
+    "English": "Moderate Risk ⚠️ Watch your health closely!",
+    "Tamil": "நடுத்தரவு ஆபத்து ⚠️ உங்கள் ஆரோக்கியத்தை கவனமாக கண்காணிக்கவும்!"
+  },
+  "High Risk ❗ Immediate medical attention advised!": {
+    "English": "High Risk ❗ Immediate medical attention advised!",
+    "Tamil": "உயர்ந்த ஆபத்து ❗ உடனடி மருத்துவ உதவி பரிந்துரைக்கப்படுகிறது!"
+  },
+  "Risk Score": {
+    "English": "Risk Score",
+    "Tamil": "ஆபத்து மதிப்பெண்"
+  },
+  "💡 Personalized Suggestions:": {
+    "English": "💡 Personalized Suggestions:",
+    "Tamil": "💡 பிரத்தியேக பரிந்துரைகள்:"
+  },
+  "Continue a balanced diet": {
+    "English": "Continue a balanced diet",
+    "Tamil": "சீரான உணவு பழக்கத்தை தொடரவும்"
+  },
+  "Stay physically active": {
+    "English": "Stay physically active",
+    "Tamil": "இரு உடல் ஆரோக்கியமாக செயலில் இருங்கள்"
+  },
+  "Get routine checkups": {
+    "English": "Get routine checkups",
+    "Tamil": "நிலையான பரிசோதனைகள் மேற்கொள்ளவும்"
+  },
+  "Consult a nutritionist": {
+    "English": "Consult a nutritionist",
+    "Tamil": "ஒரு ஊட்டச்சத்து நிபுணரிடம் ஆலோசனை பெறவும்"
+  },
+  "Monitor BP, Sugar daily": {
+    "English": "Monitor BP, Sugar daily",
+    "Tamil": "BP, சர்க்கரை தினசரி கண்காணிக்கவும்"
+  },
+  "Mild exercise recommended": {
+    "English": "Mild exercise recommended",
+    "Tamil": "இனிமையான உடற்பயிற்சி பரிந்துரைக்கப்படுகிறது"
+  },
+  "Consult your doctor urgently": {
+    "English": "Consult your doctor urgently",
+    "Tamil": "உங்கள் மருத்துவரிடம் அவசரமாக ஆலோசனை பெறவும்"
+  },
+  "Strict diet and medication": {
+    "English": "Strict diet and medication",
+    "Tamil": "கடுமையான உணவு மற்றும் மருந்துகள்"
+  },
+  "Avoid stress and monitor vitals daily": {
+    "English": "Avoid stress and monitor vitals daily",
+    "Tamil": "மன அழுத்தத்தைத் தவிர்க்கவும் மற்றும் முக்கியமான தகவல்களை தினசரி கண்காணிக்கவும்"
+  },
+  "🚑 Appointment Request (Recommended)": {
+    "English": "🚑 Appointment Request (Recommended)",
+    "Tamil": "🚑 பேராளப்பணி கோரிக்கை (பரிந்துரைக்கப்படுகிறது)"
+  },
+  "Contact Number": {
+    "English": "Contact Number",
+    "Tamil": "தொடர்பு எண்"
+  },
+  "Preferred Appointment Date": {
+    "English": "Preferred Appointment Date",
+    "Tamil": "பிரியமான பேராளப்பணி தேதி"
+  },
+  "Preferred Time": {
+    "English": "Preferred Time",
+    "Tamil": "பிரியமான நேரம்"
+  },
+  "Briefly describe your symptoms:": {
+    "English": "Briefly describe your symptoms:",
+    "Tamil": "உங்கள் அறிகுறிகளை சுருக்கமாக விவரிக்கவும்:"
+  },
+  "Submit Appointment Request": {
+    "English": "Submit Appointment Request",
+    "Tamil": "பேராளப்பணி கோரிக்கையை சமர்ப்பிக்கவும்"
+  },
+  "✅ Your appointment request has been submitted!": {
+    "English": "✅ Your appointment request has been submitted!",
+    "Tamil": "✅ உங்கள் பேராளப்பணி கோரிக்கை சமர்ப்பிக்கப்பட்டுள்ளது!"
+  },
+  "# Disease Prediction using Machine Learning": {
+    "English": "# Disease Prediction using Machine Learning",
+    "Tamil": "யந்திர கற்றல் மூலம் நோய்கள் கணிப்பது"
+  },
+  "What are your symptoms?": {
+    "English": "What are your symptoms?",
+    "Tamil": "உங்களுக்குத் தோன்றும் அறிகுறிகள் என்ன?"
+  },
+  "Predict": {
+    "English": "Predict",
+    "Tamil": "கணிக்கவும்"
+  },
+  "Disease: {prediction} with {probability}% probability": {
+    "English": "Disease: {prediction} with {probability}% probability",
+    "Tamil": "நோய்: {prediction}, சாத்தியம்: {probability}%"
+  },
+  "Description": {
+    "English": "Description",
+    "Tamil": "விளக்கம்"
+  },
+  "Precautions": {
+    "English": "Precautions",
+    "Tamil": "எச்சரிக்கைகள்"
+  }
+}

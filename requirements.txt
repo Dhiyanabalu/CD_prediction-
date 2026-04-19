@@ -1,0 +1,12 @@
+streamlit
+pandas
+plotly
+matplotlib
+seaborn
+numpy
+altair
+fpdf
+Pyrebase4
+xgboost
+scikit-learn
+joblib

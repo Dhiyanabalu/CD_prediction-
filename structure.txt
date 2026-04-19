@@ -1,0 +1,51 @@
+Folder PATH listing
+Volume serial number is 665C-B3C3
+C:.
+¦   cdpredict.py
+¦   patient_report.pdf
+¦   structure.txt
+¦   translation.json
+¦   
++---code
+¦   ¦   DiseaseModel.py
+¦   ¦   firebase_config.py
+¦   ¦   heart_dis_train.py
+¦   ¦   helper.py
+¦   ¦   meal_planner.py
+¦   ¦   __init__.py
+¦   ¦   
+¦   +---__pycache__
+¦           DiseaseModel.cpython-39.pyc
+¦           firebase_config.cpython-39.pyc
+¦           helper.cpython-39.pyc
+¦           meal_planner.cpython-39.pyc
+¦           __init__.cpython-39.pyc
+¦           
++---data
+¦       clean_dataset.tsv
+¦       dataset.csv
+¦       diabetes.csv
+¦       enhanced_fever_medicine_recommendation.csv
+¦       healthcare-dataset-stroke-data.csv
+¦       heart.csv
+¦       Indian_Food_DF.csv
+¦       kidney_disease.csv
+¦       Symptom-severity.csv
+¦       symptom_Description.csv
+¦       symptom_precaution.csv
+¦       
++---models
+¦       heart_disease_model.pkl
+¦       heart_disease_model.sav
+¦       hypertension_model.pkl
+¦       kidney_disease_model.pkl
+¦       liver_model.sav
+¦       mean_std_values.pkl
+¦       model_diabetes.sav
+¦       xgboost_model.json
+¦       
++---notebook
+        diabetes_prediction.ipynb
+        kidney_disease_model.ipynb
+        Multiple disease prediction system - heart.ipynb
+        
