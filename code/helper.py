@@ -1,5 +1,6 @@
 import pandas as pd
 import numpy as np
+from pathlib import Path
 
 
 def prepare_symptoms_array(symptoms):
@@ -10,8 +11,16 @@ def prepare_symptoms_array(symptoms):
     Output:
     - X (np.array) = X values ready as input to ML model to get prediction
     '''
-    symptoms_array = np.zeros((1,133))
-    df = pd.read_csv('./data/clean_dataset.tsv', sep='\t')
+    symptoms_array = np.zeros((1, 133))
+    
+    # Get path relative to this file
+    base_dir = Path(__file__).parent.parent
+    data_file = base_dir / "data" / "clean_dataset.tsv"
+    
+    if not data_file.exists():
+        raise FileNotFoundError(f"Dataset not found at {data_file}")
+    
+    df = pd.read_csv(data_file, sep='\t')
     
     for symptom in symptoms:
         symptom_idx = df.columns.get_loc(symptom)

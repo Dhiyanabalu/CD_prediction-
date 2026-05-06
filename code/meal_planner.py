@@ -1,12 +1,17 @@
 import pandas as pd
 import re
 import random
+from pathlib import Path
 
-# Dataset path
-DATA_PATH = "./data/Indian_Food_DF.csv"  # Corrected path
+# Dataset path - relative to this file
+BASE_DIR = Path(__file__).parent.parent
+DATA_PATH = BASE_DIR / "data" / "Indian_Food_DF.csv"
 
 # Load and clean meal data
 def load_meal_data():
+    if not DATA_PATH.exists():
+        raise FileNotFoundError(f"Meal dataset not found at {DATA_PATH}")
+    
     df = pd.read_csv(DATA_PATH)
 
     def extract_kcal(energy_str):

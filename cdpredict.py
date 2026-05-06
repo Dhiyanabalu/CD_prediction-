@@ -1,37 +1,39 @@
 import sys
 import os
+from pathlib import Path
+from datetime import datetime, timedelta
+from collections import Counter
 
 # Add D drive packages to path
 sys.path.insert(0, r'D:\CDPrediction\packages')
 
-
 import streamlit as st
 import pandas as pd
+import numpy as np
+import pickle
+import joblib
+import re
+import json
 import plotly.express as px
 import matplotlib.pyplot as plt
 import seaborn as sns
-import pickle
-import joblib
-import os
-import re
-import json
-import datetime
-from pathlib import Path
-import pandas as pd
-import numpy as np
-from collections import Counter
-import streamlit as st
-from datetime import datetime,  timedelta 
 import altair as alt
+from fpdf import FPDF
+
 from code.meal_planner import get_personalized_meal_plan
 from code.DiseaseModel import DiseaseModel
 from code.helper import prepare_symptoms_array
-from fpdf import FPDF
 from config.firebase_config import auth
 
 BASE_DIR = Path(__file__).resolve().parent
 MODELS_DIR = BASE_DIR / "models"
 DATA_DIR = BASE_DIR / "data"
+
+# Verify required directories exist
+if not MODELS_DIR.exists():
+    st.error("❌ Models directory not found at " + str(MODELS_DIR))
+if not DATA_DIR.exists():
+    st.error("❌ Data directory not found at " + str(DATA_DIR))
 
 # Load Diabetes Prediction Model
 with open(MODELS_DIR / "model_diabetes.sav", "rb") as f:
@@ -611,12 +613,11 @@ elif menu == "Home":
     if st.button(t("Save Data")):
         new_data = pd.DataFrame([[st.session_state["blood_pressure"], st.session_state["heart_rate"], 
                                 st.session_state["blood_sugar"], st.session_state["temperature"], st.session_state.get("bmi", None)]], 
-                                columns=["Blood Pressure", "Heart Rate", "Blood Sugar", "Temperature","BMI"])
+                                columns=["Blood Pressure", "Heart Rate", "Blood Sugar", "Temperature", "BMI"])
         st.session_state["health_data"] = pd.concat([st.session_state["health_data"], new_data], ignore_index=True)
         st.success(t("✅ Data saved successfully!"))
-        
-        # ✅ Set flag to show Risk Score after saving
         st.session_state["show_risk"] = True
+        st.rerun()
 
     st.subheader(t("📊 Health Data Log"))
     st.dataframe(st.session_state["health_data"])
@@ -1219,13 +1220,15 @@ elif menu == "Fever":
     temp_unit = st.radio("Select Temperature Unit:", ["Celsius (°C)", "Fahrenheit (°F)"], horizontal=True)
 
     try:
-        # Load dataset
+        # Load dataset with proper path handling
+        fever_data_path = DATA_DIR / "enhanced_fever_medicine_recommendation.csv"
         try:
-            df = pd.read_csv(DATA_DIR / "enhanced_fever_medicine_recommendation.csv")
-            df.columns = df.columns.str.strip().str.lower()
-        except FileNotFoundError:
-            st.error("❌ Medication dataset not found.")
-            df = pd.DataFrame(columns=["fever_severity", "recommended_medication"])
+            if fever_data_path.exists():
+                df = pd.read_csv(fever_data_path)
+                df.columns = df.columns.str.strip().str.lower()
+            else:
+                st.error(f"❌ Medication dataset not found at {fever_data_path}")
+                df = pd.DataFrame(columns=["fever_severity", "recommended_medication"])
         except Exception as e:
             st.error(f"❌ Error loading data: {e}")
             df = pd.DataFrame(columns=["fever_severity", "recommended_medication"])
